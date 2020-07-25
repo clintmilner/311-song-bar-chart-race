@@ -1,0 +1,22 @@
+{
+  "name": "311-song-bar-chart-race",
+  "version": "1.0.0",
+  "description": "A visualization of the songs that the band 311 have played live over their 30+ year history",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clintmilner/311-song-bar-chart-race.git"
+  },
+  "keywords": [
+    "311"
+  ],
+  "author": "Clint Milner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clintmilner/311-song-bar-chart-race/issues"
+  },
+  "homepage": "https://github.com/clintmilner/311-song-bar-chart-race#readme"
+}
