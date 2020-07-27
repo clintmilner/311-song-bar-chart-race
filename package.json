@@ -2,9 +2,9 @@
   "name": "311-song-bar-chart-race",
   "version": "1.0.0",
   "description": "A visualization of the songs that the band 311 have played live over their 30+ year history",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,14 @@
   "bugs": {
     "url": "https://github.com/clintmilner/311-song-bar-chart-race/issues"
   },
-  "homepage": "https://github.com/clintmilner/311-song-bar-chart-race#readme"
+  "homepage": "https://github.com/clintmilner/311-song-bar-chart-race#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
 }
